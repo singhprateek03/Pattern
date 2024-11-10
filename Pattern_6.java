@@ -4,6 +4,8 @@ public class Pattern_6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
-        int nums = sc.nextInt();
+        int size = sc.nextInt();
+        Pattern_6_Upper.displayUpper(size);
+        Pattern_6_Lower.displayLowerPart(size);
     }
 }
