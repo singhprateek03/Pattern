@@ -67,6 +67,22 @@ public class Pattern_2 {
 //        }
 
         /* Pattern
+        A B C D E
+        A B C D
+        A B C
+        A B
+        A
+        */
+//        for (char row = 1; row <= num; row++) {
+//            char ch = 'A';
+//            for (int col = 1; col <= num-row+1 ; col++) {
+//                System.out.print(ch+" ");
+//                ch++;
+//            }
+//            System.out.println();
+//        }
+
+        /* Pattern
           1 2 3 4 5
           1 2 3 4
           1 2 3
