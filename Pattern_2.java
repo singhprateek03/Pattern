@@ -57,14 +57,14 @@ public class Pattern_2 {
         M N
         O
         */
-        char ch = 'A';
-        for (char row = 1; row <= num; row++) {
-            for (int col = 1; col <= num-row+1 ; col++) {
-                System.out.print(ch+" ");
-                ch++;
-            }
-            System.out.println();
-        }
+//        char ch = 'A';
+//        for (char row = 1; row <= num; row++) {
+//            for (int col = 1; col <= num-row+1 ; col++) {
+//                System.out.print(ch+" ");
+//                ch++;
+//            }
+//            System.out.println();
+//        }
 
         /* Pattern
           1 2 3 4 5
