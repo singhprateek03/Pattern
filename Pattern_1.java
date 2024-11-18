@@ -59,11 +59,19 @@ public class Pattern_1 {
         G H I J
         K L M N O
         */
-        char ch ='A';
-        for (int row = 1; row <= num; row++) {
-            for (int col = 1; col <= row ; col++) {
-                System.out.print(ch+" ");
-                ch++;
+//        char ch ='A';
+//        for (int row = 1; row <= num; row++) {
+//            for (int col = 1; col <= row ; col++) {
+//                System.out.print(ch+" ");
+//                ch++;
+//            }
+//            System.out.println();
+//        }
+
+       /* Pattern */
+        for (char row = 'E'; row >= 'A'; row--) {
+            for (int col = row; col <= 'E'; col++) {
+                System.out.print((char) col+" ");
             }
             System.out.println();
         }
