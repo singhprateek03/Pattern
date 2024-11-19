@@ -114,30 +114,46 @@ public class Pattern_3 {
 //            System.out.println();
 //        }
         /* Pattern
+          *
+         ***
+        *****
+       *******
+       *********
+         */
+        for (int row = 1; row <=num ; row++) {
+            for (int col = 1; col <=num-row ; col++) {
+                System.out.print(" ");
+            }
+            for (int col = 1; col < 2*row; col++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        /* Pattern
           1
          123
         12345
          123
           1
          */
-        int spaces = num/2;
-        int star = 1;
-        for (int row = 1; row <= num ; row++) {
-            for (int col = 1; col <= spaces ; col++) {
-                System.out.print(" ");
-            }
-            for (int col = 1; col <= star; col++) {
-                System.out.print(col);
-            }
-            System.out.println();
-            if (row <= num/2) {
-                spaces--;
-                star += 2;
-            }
-            else {
-                spaces++;
-                star -= 2;
-            }
-        }
+//        int spaces = num/2;
+//        int star = 1;
+//        for (int row = 1; row <= num ; row++) {
+//            for (int col = 1; col <= spaces ; col++) {
+//                System.out.print(" ");
+//            }
+//            for (int col = 1; col <= star; col++) {
+//                System.out.print(col);
+//            }
+//            System.out.println();
+//            if (row <= num/2) {
+//                spaces--;
+//                star += 2;
+//            }
+//            else {
+//                spaces++;
+//                star -= 2;
+//            }
+//        }
     }
 }
